@@ -10,12 +10,11 @@
 .container_form {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   padding-bottom: 45px;
 }
 .colorForm {
   width: 250px;
-  margin: 0 0 0 200px;
 }
 
 .titleColor {
@@ -42,7 +41,7 @@
   border: 2px solid grey;
 }
 .results {
-  width: 300px;
+  width: 200px;
   display: flex;
   flex-direction: column;
 }
