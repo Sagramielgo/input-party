@@ -1,9 +1,14 @@
 .movieForm {
   width: 100%;
-  padding: 80px 0;
-  background-color: rgb(190, 218, 228);
+  padding: 30px 0;
+
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+}
+.movieTitle {
+  text-align: center;
+  padding-top: 30px;
 }
 .form {
   display: flex;
@@ -11,12 +16,13 @@
 }
 .info {
   display: flex;
+  flex-wrap: wrap;
 }
 .inputTitle {
   width: 350px;
   height: 50px;
   font-size: 18px;
-  margin: 0 20px 50px 50px;
+  margin: 0 20px 50px 0;
 }
 .textArea {
   font-size: 18px;
@@ -40,7 +46,6 @@ input {
 }
 .article {
   margin-left: 50px;
-  width: 500px;
 }
 .text {
   font-size: 24px;

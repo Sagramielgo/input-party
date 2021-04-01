@@ -5,11 +5,11 @@ import '../style/app.scss';
 
 function App() {
   return (
-    <div className="mainContainer">
+    <>
       <Header />
       <Colors />
       <MovieForm />
-    </div>
+    </>
   );
 }
 
