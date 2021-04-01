@@ -1,12 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
   list-style: none;
   box-sizing: border-box;
 }
 .movieForm {
   width: 100%;
-  margin-bottom: 50px;
+  padding: 70px 0 120px 0;
+  background-color: rgb(190, 218, 228);
   display: flex;
 }
 .form {
@@ -23,6 +22,7 @@
 }
 .textArea {
   font-size: 18px;
+  padding-left: 10px;
 }
 .select {
   width: 100px;
@@ -38,13 +38,14 @@ label {
 input {
   margin: 5px;
   font-size: 20px;
+  padding-left: 10px;
 }
 .article {
   margin-left: 50px;
   width: 500px;
 }
 .text {
-  font-size: 36px;
+  font-size: 24px;
 }
 .wrap {
   display: flex;
