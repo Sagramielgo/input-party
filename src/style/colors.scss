@@ -1,22 +1,26 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
-  box-sizing: border-box;
 }
+
 .container {
-  display: flex;
-  margin-bottom: 100px;
   width: 100%;
+  display: flex;
+  padding-bottom: 60px;
 }
 .colorForm {
   width: 250px;
   margin: 0 0 0 200px;
 }
-.title,
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+}
 .titleColor {
   text-align: center;
-  margin: 20px 0;
+  padding: 20px 0;
+  font-size: 24px;
 }
 .label {
   display: flex;
@@ -42,13 +46,17 @@
   flex-direction: column;
 }
 .pink {
-  background-color: pink;
+  background-color: rgb(245, 166, 179);
 }
 .blue {
   background-color: cyan;
 }
 .green {
   background-color: greenyellow;
+}
+
+.white {
+  background-color: white;
 }
 .resetColors {
   display: block;

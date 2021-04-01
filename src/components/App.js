@@ -1,10 +1,10 @@
 import MovieForm from './MovieForm';
 import Colors from './Colors';
 
-function App(/* props */) {
+function App() {
   return (
-    <div>
-      <h2 className="title"> Formularios</h2>
+    <div className="mainContainer">
+      <h1 className="title"> Formularios</h1>
       <Colors />
       <MovieForm />
     </div>

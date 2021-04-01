@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../style/colors.scss';
 const Colors = (/* props */) => {
   const [selectedNumber, setSelectedNumber] = useState('');
-  const [selectedColor, setSelectedColor] = useState('');
+  const [selectedColor, setSelectedColor] = useState('white');
   const [namePalette, setNamePalette] = useState('');
 
   const handleChangePalette = (ev) => {
@@ -12,7 +12,7 @@ const Colors = (/* props */) => {
   };
 
   const handleResetColor = () => {
-    setSelectedColor('');
+    setSelectedColor('white');
     setNamePalette('');
   };
 
@@ -63,7 +63,7 @@ const Colors = (/* props */) => {
         </form>
         <section className="results">
           <div className={`resultColor ${selectedColor}`}>{selectedNumber}</div>
-          <p clasName="namePalette">{namePalette}</p>
+          <p className="namePalette">{namePalette}</p>
         </section>
         <div>
           <button
