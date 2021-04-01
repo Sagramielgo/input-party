@@ -20,10 +20,9 @@ const Colors = (/* props */) => {
     setSelectedNumber('');
   };
   return (
-    <>
+    <div className="container">
       <h3 className="titleColor">Choose your favorite color</h3>
-
-      <div className="container">
+      <section className="container_form">
         <form className="colorForm">
           <label htmlFor="pink" className="label">
             <input
@@ -81,8 +80,8 @@ const Colors = (/* props */) => {
             Reset Number
           </button>
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 };
 

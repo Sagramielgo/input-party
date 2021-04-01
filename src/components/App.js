@@ -1,10 +1,12 @@
 import MovieForm from './MovieForm';
 import Colors from './Colors';
+import Header from './Header';
+import '../style/app.scss';
 
 function App() {
   return (
     <div className="mainContainer">
-      <h1 className="title"> Formularios</h1>
+      <Header />
       <Colors />
       <MovieForm />
     </div>
